@@ -6,7 +6,7 @@
 
 import setuptools
 
-import DPkit
+import DP
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -15,15 +15,15 @@ with open("requirements.txt") as fh:
     required = fh.read().splitlines()
 
 setuptools.setup(
-    name="DPkit",
-    version=DPkit.__version__,
+    name="DynamicProgramming",
+    version=DP.__version__,
     author="Daniel Yang",
     author_email="daniel.yj.yang@gmail.com",
     description="Library for Studying Dynamic Programming",
-    license=DPkit.__license__,
+    license=DP.__license__,
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="https://github.com/daniel-yj-yang/DPkit",
+    url="https://github.com/daniel-yj-yang/DynamicProgramming",
     packages=setuptools.find_packages(),
     # https://pypi.org/classifiers/
     classifiers=[
