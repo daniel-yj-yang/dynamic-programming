@@ -4,6 +4,7 @@
 #
 # License: BSD-3-Clause
 
-import DynamicProgramming as DP
 
-DP.Fibonacci_numbers()
+def Fibonacci_numbers():
+  print("recurrence relation (subproblem): Fn = Fn-1 + Fn-2")
+
