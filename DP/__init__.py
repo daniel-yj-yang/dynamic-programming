@@ -10,5 +10,7 @@ from .__about__ import (
     __license__,
 )
 
+from .DP_problems import DP_problems
+
 # this is for "from <package_name> import *"
-__all__ = []
+__all__ = ["DP_problems",]

@@ -5,6 +5,7 @@
 # License: BSD-3-Clause
 
 
-def Fibonacci_numbers():
-  print("recurrence relation (subproblem): Fn = Fn-1 + Fn-2")
+class DP_problems():
+  def Fibonacci_numbers(self):
+    print("recurrence relation (subproblem): Fn = Fn-1 + Fn-2")
 
