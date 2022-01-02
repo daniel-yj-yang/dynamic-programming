@@ -4,6 +4,6 @@
 #
 # License: BSD-3-Clause
 
-import DynamicProgramming as DP
+import DP
 
 DP.Fibonacci_numbers()

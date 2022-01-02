@@ -17,10 +17,10 @@ with open("requirements.txt") as fh:
 setuptools.setup(
     name="DynamicProgramming",
     version=DP.__version__,
+    license=DP.__license__,
     author="Daniel Yang",
     author_email="daniel.yj.yang@gmail.com",
     description="Library for Studying Dynamic Programming",
-    license=DP.__license__,
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url="https://github.com/daniel-yj-yang/DynamicProgramming",
