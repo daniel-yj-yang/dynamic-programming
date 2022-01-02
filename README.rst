@@ -33,4 +33,5 @@ Installation
 Sample Usage
 ------------
 
->>> import DP
+>>> from DP import Fibonacci_numbers as fib
+>>> fib()
