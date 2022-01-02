@@ -38,7 +38,8 @@ Sample Usage
 1. recurrence relation (subproblem): Fn = Fn-1 + Fn-2
 2. bottom-up DP; Time Complexity O(n), Space Complexity O(1)
 
-```
+.. code-block::
+
 def fib(n):
     F = [0, 1]    
     if n < 2:
@@ -48,4 +49,3 @@ def fib(n):
         F[:] = F[1:] + [F_i]
     return F_i
 )
-```
