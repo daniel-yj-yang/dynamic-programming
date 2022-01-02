@@ -40,12 +40,12 @@ Sample Usage
 
 .. code-block::
 
-def fib(n):
-    F = [0, 1]    
-    if n < 2:
-        return F[n]
-    for i in range(2, n+1):
-        F_i = sum(F) # implementation of the recurrence relation: Fn = Fn-1 + Fn-2
-        F[:] = F[1:] + [F_i]
-    return F_i
-)
+   def fib(n):
+      F = [0, 1]    
+      if n < 2:
+         return F[n]
+      for i in range(2, n+1):
+         F_i = sum(F) # implementation of the recurrence relation: Fn = Fn-1 + Fn-2
+         F[:] = F[1:] + [F_i]
+      return F_i
+   )
