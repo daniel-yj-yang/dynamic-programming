@@ -7,7 +7,7 @@
 
 def Fibonacci_numbers():
   print("1. recurrence relation (subproblem): Fn = Fn-1 + Fn-2")
-  print("2. Bottom-up DP, Time Complexity O(n), Space Complexity O(1)")
+  print("2. bottom-up DP; Time Complexity O(n), Space Complexity O(1)")
   print("""
 def fib(n):
     F = [0, 1]    
