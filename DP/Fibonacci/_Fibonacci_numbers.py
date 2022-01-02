@@ -4,6 +4,7 @@
 #
 # License: BSD-3-Clause
 
-from DP import Fibonacci_numbers as fib
 
-fib()
+def Fibonacci_numbers():
+  print("recurrence relation (subproblem): Fn = Fn-1 + Fn-2")
+

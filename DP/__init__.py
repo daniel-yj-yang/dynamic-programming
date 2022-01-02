@@ -10,7 +10,7 @@ from .__about__ import (
     __license__,
 )
 
-from .DP_problems import DP_problems
+from .Fibonacci import Fibonacci_numbers
 
 # this is for "from <package_name> import *"
-__all__ = ["DP_problems",]
+__all__ = ["Fibonacci_numbers", ]
