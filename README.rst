@@ -33,4 +33,4 @@ Installation
 Sample Usage
 ------------
 
->>> import DynamicProgramming as DP
+>>> import DP
