@@ -4,6 +4,6 @@
 #
 # License: BSD-3-Clause
 
-import DP
+from DP import DP_problems as dp
 
-DP.Fibonacci_numbers()
+dp.Fibonacci_numbers()
