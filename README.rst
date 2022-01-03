@@ -42,6 +42,8 @@ Sample Usage
 >>> F = fib()
 >>> F.explanation()
 
+::
+
 The recurrence relation: Fn = Fn-2 + Fn-1, with F0 = 0, F1 = 1
 
 Source codes:
