@@ -8,6 +8,6 @@
 from DP import Fibonacci_numbers as fib
 F = fib()
 F.explanation()  # this will show the code and some explanations
-F.top_down(500)
-F.bottom_up(500)
+print(F.top_down(500))
+print(F.bottom_up(500))
 
