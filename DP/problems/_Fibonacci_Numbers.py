@@ -29,7 +29,7 @@ class Fibonacci_numbers():
 
     def bottom_up(self, n):
         """
-        Tabulation;
+        Tabulation - full tabulation has Space Complexity O(n); keeping only needed items has Space Complexity O(1)
         Time Complexity O(n), Space Complexity O(1)
         """
         F = [0, 1]

@@ -38,7 +38,7 @@ Installation
 Sample Usage
 ------------
 
->>> from DP import Fibonacci_numbers as fib
+>>> from DP import Fibonacci_Numbers as fib
 >>> F = fib()
 >>> F.explanation() # this will show the code and some explanations 
 >>> F.top_down(10)
