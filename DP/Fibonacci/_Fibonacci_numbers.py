@@ -13,7 +13,7 @@ class Fibonacci_numbers():
 
     def explanation(self):
         print(f"\nThe recurrence relation: Fn = Fn-2 + Fn-1, with F0 = 0, F1 = 1\n\nSource codes:\n")
-        print(inspect.getsource(self.top_down))
+        print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 
     @lru_cache(maxsize=None)
