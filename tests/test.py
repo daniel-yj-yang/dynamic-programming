@@ -16,3 +16,9 @@ r = robber()
 r.explanation()
 print(r.top_down(nums = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98]))
 print(r.bottom_up(nums = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98]))
+
+from DP import Min_Cost_Climbing_Stairs as climb
+c = climb()
+c.explanation() # this will show the code and some explanations 
+print(c.top_down(cost = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98]))
+print(c.bottom_up(cost = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98]))

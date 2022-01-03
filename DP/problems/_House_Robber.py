@@ -12,7 +12,7 @@ import inspect
 class House_Robber():
 
     def explanation(self):
-        print(f"\nThe recurrence relation: f(i) = max( f(i-2) + nums[i], f(i-1) ), with f(-2) = f(-1) = 0\n\nSource codes:\n")
+        print(f"\nThe recurrence relation: f(i) = max( f(i-2) + nums[i], f(i-1) ), where f(i) is the max. gain at house[i], with f(-2) = f(-1) = 0\n\nSource codes:\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 

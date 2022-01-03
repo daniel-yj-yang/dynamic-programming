@@ -22,7 +22,7 @@
 Library for Studying Dynamic Programming
 ========================================
 
-DP is suitable for a particular kind of problem structure: the subproblems are highly overlapping (usually with 2^n time complexity) and the recurrence relation can be clearly defined.
+DP is suitable for a particular kind of problem (computation) structure: the subproblems are highly overlapping (usually with 2^n time complexity) and the recurrence relation can be clearly defined.
 
 In this library, I try to provide implementations of two major DP approaches -- (1) top-down (recursion + memoization); (2) bottom-up (tabulation) -- for some well-known DP problems.
 
@@ -53,3 +53,11 @@ Sample Usage
 120
 >>> r.bottom_up(nums = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98])
 120
+
+>>> from DP import Min_Cost_Climbing_Stairs as climb
+>>> c = climb()
+>>> c.explanation() # this will show the code and some explanations 
+>>> c.top_down(cost = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98])
+57
+>>> c.bottom_up(cost = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98])
+57
