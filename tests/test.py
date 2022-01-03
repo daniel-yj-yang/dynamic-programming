@@ -8,8 +8,8 @@
 from DP import Fibonacci_Numbers as fib
 F = fib()
 F.explanation()  # this will show the code and some explanations
-print(F.top_down(500))
-print(F.bottom_up(500))
+print(F.top_down(n = 500))
+print(F.bottom_up(n = 500))
 
 from DP import House_Robber as robber
 r = robber()

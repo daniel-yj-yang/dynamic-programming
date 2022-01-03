@@ -24,7 +24,11 @@ Library for Studying Dynamic Programming
 
 DP is suitable for a particular kind of problem (computation) structure: the subproblems are highly overlapping (usually with 2^n time complexity) and the recurrence relation can be clearly defined.
 
-In this library, I try to provide implementations of two major DP approaches -- (1) top-down (recursion + memoization); (2) bottom-up (tabulation) -- for some well-known DP problems.
+In this library, I try to provide implementations of two major DP approaches -- (1) top-down (recursion + memoization); (2) bottom-up (tabulation) -- for some well-known DP problems, including:
+
+** Fibonacci_Numbers
+** House_Robber
+** Min_Cost_Climbing_Stairs
 
 
 Installation
@@ -41,9 +45,9 @@ Sample Usage
 >>> from DP import Fibonacci_Numbers as fib
 >>> F = fib()
 >>> F.explanation() # this will show the code and some explanations 
->>> F.top_down(10)
+>>> F.top_down(n = 10)
 55
->>> F.bottom_up(10)
+>>> F.bottom_up(n = 10)
 55
 
 >>> from DP import House_Robber as robber
