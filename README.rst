@@ -45,3 +45,11 @@ Sample Usage
 55
 >>> F.bottom_up(10)
 55
+
+>>> from DP import House_Robber as robber
+>>> r = robber()
+>>> r.explanation() # this will show the code and some explanations 
+>>> r.top_down(nums = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98])
+120
+>>> r.bottom_up(nums = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98])
+120
