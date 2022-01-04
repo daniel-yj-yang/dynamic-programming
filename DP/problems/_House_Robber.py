@@ -13,7 +13,7 @@ class House_Robber():
 
     def explanation(self):
         print(f"\nThe question provides an integer array nums for the amount of money of each house and asks you to return the max. amount of money you can rob tonight without robbing two adjacent houses.")
-        print(f"\nThe recurrence relation: f(i) = max( f(i-2) + nums[i], f(i-1) ), where f(i) is the max. gain at house[i], with f(-2) = f(-1) = 0\n\nSource codes:\n")
+        print(f"\nThe recurrence relation: f(i) = max( f(i-2) + nums[i], f(i-1) ), which means a choice between (robbing house[i] and assuming all the max gain at house[i-2]) vs. (not robbing house[i] and assuming all the max. gain at house[i-1]), where f(i) is the max. gain at house[i], with f(-2) = f(-1) = 0\n\nSource codes:\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 

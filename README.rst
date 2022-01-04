@@ -30,6 +30,7 @@ In this library, I try to provide implementations of two major DP approaches -- 
 - House_Robber
 - Min_Cost_Climbing_Stairs
 - Maximum_Subarray
+- Best_Time_to_Buy_and_Sell_Stock
 
 
 Installation
@@ -74,3 +75,11 @@ Sample Usage
 [4, -1, 2, 1, -5, 4, 9, -2, 10, 15] has the largest sum = 37.
 >>> m.bottom_up(nums=[-2, 1, -3, 4, -1, 2, 1, -5, 4, 9, -2, 10, 15, -3, -4])
 [4, -1, 2, 1, -5, 4, 9, -2, 10, 15] has the largest sum = 37.
+
+>>> from DP import Best_Time_to_Buy_and_Sell_Stock as stock
+>>> s = stock()
+>>> s.explanation() # this will show the code and some explanations 
+>>> s.top_down(prices=[7, 1, 5, 3, 6, 4, 2, 10, 2, 3, 9, 1])
+9
+>>> s.bottom_up(prices=[7, 1, 5, 3, 6, 4, 2, 10, 2, 3, 9, 1])
+9
