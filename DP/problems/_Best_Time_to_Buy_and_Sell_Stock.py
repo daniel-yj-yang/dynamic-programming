@@ -12,12 +12,12 @@ import inspect
 class Best_Time_to_Buy_and_Sell_Stock():
 
     def explanation(self):
-        print(f"\nThe question provides an prices array of the price of a given stock on the i-th day, and asks you to return the maximum profit that can be achieved from buying and selling on a different day in the future.")
+        print(f"\nThe question provides a prices array of the price of a given stock on the i-th day, and asks you to return the maximum profit that can be achieved by one transaction of buying and selling on a different day in the future.")
         print(f"\nSome possible recurrence relations:\n")
-        print(f"(1) min_price_past_and_now(i) = min(prices[i], min_price_past_and_now(i-1)), and max_profit_past_and_now = max(max_profit_past_and_now, prices[i] - min_price_past_and_now(i)), while counting from prices[0] forward;\n")
-        print(f"(2) max_price_now_n_future(i) = max(prices[i], max_price_now_n_future(i+1)), and max_profit_now_n_fugure = max(max_profit_now_n_fugure, max_price_now_n_future(i) - prices[i]), while counting from prices[-1] backward;\n")
-        print(f"(3) max_profit(i) = max(price_diff[i], price_diff[i] + max_profit(i-1)), for i in range(1, len(prices)), where price_diff[i] = prices[i] - prices[i-1]; this is basically to find the max. subarray sum with the array being np.diff(prices);\n")
-        print(f"(4) max_profit(i) = max(0,             price_diff[i] + max_profit(i-1)), everything else the same as in (3); this is because if price_diff[i] < 0, it is better off not having any transactions at all to ensure that max_profit(i) >= 0;\n")
+        print(f"(1) use DP to find min_price_past_and_now(i) = min(prices[i], min_price_past_and_now(i-1)), and max_profit_past_and_now = max(max_profit_past_and_now, prices[i] - min_price_past_and_now(i)), while counting from prices[0] forward;\n")
+        print(f"(2) use DP to find max_price_now_n_future(i) = max(prices[i], max_price_now_n_future(i+1)), and max_profit_now_n_fugure = max(max_profit_now_n_fugure, max_price_now_n_future(i) - prices[i]), while counting from prices[-1] backward;\n")
+        print(f"(3) like Maximum Subarray, use DP to find the max. subarray sum with the array being np.diff(prices); that is, max_profit(i) = max(price_diff[i], price_diff[i] + max_profit(i-1)), for i in range(1, len(prices)), where price_diff[i] = prices[i] - prices[i-1];\n")
+        print(f"(4) like Maximum Subarray, use DP to find the max. subarray sum with the array being np.diff(prices); that is, max_profit(i) = max(0,             price_diff[i] + max_profit(i-1)), everything else the same as in (3); this is because if price_diff[i] < 0, it is better off not having any transactions at all to ensure that max_profit(i) >= 0;\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 
