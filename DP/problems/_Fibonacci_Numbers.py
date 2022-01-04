@@ -13,7 +13,7 @@ class Fibonacci_Numbers():
 
     def explanation(self):
         print(f"\nThe question provides an integer n and asks to return the n-th number in the Fibonacci sequence, with f(0) = 0, f(1) = 1")
-        print(f"\nThe recurrence relation: f(i) = f(i-2) + f(i-1), which means an automatic choice to add f(i-2) and f(i-1) for f(i), where f(i) is the i-th # in the Fibonacci sequence, with f(0) = 0, f(1) = 1\n\nSource codes:\n")
+        print(f"\nThe recurrence relation: f(i) = f(i-2) + f(i-1), which means an only choice to add f(i-2) and f(i-1) for f(i), where f(i) is the i-th # in the Fibonacci sequence, with f(0) = 0, f(1) = 1\n\nSource codes:\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 
