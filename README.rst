@@ -65,3 +65,11 @@ Sample Usage
 57
 >>> c.bottom_up(cost = [3, 10, 3, 1, 2, 4, 10, 2, 44, 98])
 57
+
+>>> from DP import Maximum_Subarray as maxsub
+>>> m = maxsub()
+>>> m.explanation() # this will show the code and some explanations 
+>>> m.top_down(nums=[-2, 1, -3, 4, -1, 2, 1, -5, 4, 9, -2, 10, 15, -3, -4])
+[4, -1, 2, 1, -5, 4, 9, -2, 10, 15] has the largest sum = 37.
+>>> m.bottom_up(nums=[-2, 1, -3, 4, -1, 2, 1, -5, 4, 9, -2, 10, 15, -3, -4])
+[4, -1, 2, 1, -5, 4, 9, -2, 10, 15] has the largest sum = 37.
