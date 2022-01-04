@@ -12,7 +12,7 @@ import inspect
 class Min_Cost_Climbing_Stairs():
 
     def explanation(self):
-        print(f"\nThe question provides you an integer array cost for the cost of i-th step you must pay on a staircase, and asks you to return the minimum cost to reach the top of the floor, while you may start at 0-th or 1-th step.")
+        print(f"\nThe question provides you an integer array cost for the cost of i-th step you must pay on a staircase, and asks you to return the minimum cost to reach the top of the floor, while you may start at 0-th or 1-th step, and take 1 or 2 steps afterward at every choice.")
         print(f"\nThe recurrence relation: f(i) = cost[i] + min( f(i-2), f(i-1) ), which means a choice between (taking two steps and assuming all the min. cost there so far) vs. (taking one step and assuming all the min. cost there so far) in order to reach to the i-th step, where f(i) is the min. cost climbing to the i-th step, with f(0) = cost[0], f(1) = cost[1]\n\nSource codes:\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
