@@ -12,7 +12,7 @@ class Maximum_Subarray():
 
     def explanation(self):
         print(f"\nThe question provides an integer array nums and asks you to find the contiguous subarray with the max. sum.")
-        print(f"\nThe recurrence relation: maxsum(i) = max(nums[i], nums[i]+maxsum(i-1)), which means a choice between including maxsum(i-1) vs. not including it when calculating the max. subarray sum including nums[i], where maxsum(i) is the max. subarray ending at the i-th index, with maxsum(0) = nums[0]\n\nSource codes:\n")
+        print(f"\nThe recurrence relation: maxsum(i) = max(nums[i], nums[i]+maxsum(i-1)), which means a choice between (a) including maxsum(i-1) vs. (b) not including it, when calculating the max. subarray sum including nums[i], where maxsum(i) is the max. subarray ending at the i-th index, with maxsum(0) = nums[0]\n\nSource codes:\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 
