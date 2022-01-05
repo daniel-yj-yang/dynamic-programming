@@ -31,6 +31,7 @@ In this library, I try to provide implementations of two major DP approaches -- 
 - Min_Cost_Climbing_Stairs
 - Maximum_Subarray
 - Best_Time_to_Buy_and_Sell_Stock
+- Coin_Change
 
 
 Installation
@@ -83,3 +84,11 @@ Sample Usage
 9
 >>> s.bottom_up(prices=[7, 1, 5, 3, 6, 4, 2, 10, 2, 3, 9, 1])
 9
+
+>>> from DP import Coin_Change as coin
+>>> c = coin()
+>>> c.explanation() # this will show the code and some explanations 
+>>> c.top_down(coins=[1, 5, 10, 25], amount=150)
+6
+>>> c.bottom_up(coins=[1, 5, 10, 25], amount=150)
+6

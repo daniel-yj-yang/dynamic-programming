@@ -42,3 +42,12 @@ s = stock()
 s.explanation()  # this will show the code and some explanations
 print(s.top_down(prices=[7, 1, 5, 3, 6, 4, 2, 10, 2, 3, 9, 1]))
 print(s.bottom_up(prices=[7, 1, 5, 3, 6, 4, 2, 10, 2, 3, 9, 1]))
+
+print('\n---------------------------------------------------------------------------------------------------')
+
+from DP import Coin_Change as coin
+c = coin()
+c.explanation()  # this will show the code and some explanations
+print(c.top_down(coins=[1, 5, 10, 25], amount=150))
+print(c.bottom_up(coins=[1, 5, 10, 25], amount=150))
+
