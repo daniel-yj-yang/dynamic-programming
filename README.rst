@@ -24,7 +24,7 @@ Library for Studying Dynamic Programming
 
 DP is suitable for a particular kind of problem (computation) structure: the subproblems are highly overlapping (usually with exponential time complexity, like 2^n) and the recurrence relation can be clearly defined.
 
-This library provides implementations of two major DP approaches -- (1) top-down (recursion + memoization); (2) bottom-up (tabulation) -- for some well-known DP problems, including:
+In this library, I provide implementations of two major DP approaches -- (1) top-down (recursion + memoization); (2) bottom-up (tabulation) -- for some well-known DP problems, including:
 
 - Fibonacci_Numbers
 - House_Robber
