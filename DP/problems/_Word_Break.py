@@ -18,7 +18,7 @@ class Word_Break():
         print(f"If a string is segmentable, if must be true that \"the string\" = \"part 1\" + \"a word from the wordDict\", and importantly \"part 1\" must be segmentable as well.\n")
         print(f"For example, s = \"codingisfun\", wordDict = ['coding', 'is', 'fun']; it follows that \"codingisfun\" = \"codingis\" + \"fun\"; and then \"codingis\" = \"coding\" + \"is\"; and then \"coding\" = \"\" + \"coding\".\n")
         print(f"Therefore, conceptually we can define a boolean function called segmentable(length), which is True if s[0:length] is segmentable by the words in wordDict.\n")
-        print(f"Implementation: segmentable(length) = segmentable(length-len(word)) and whether s[length-len(word):length] is in wordDict, for word in wordDict;\n")
+        print(f"Implementation: segmentable(length) = segmentable(length-len(word)) & whether s[length-len(word):length] is in wordDict, for one of the words (the choice) in wordDict;\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 

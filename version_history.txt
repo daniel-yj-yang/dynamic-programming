@@ -1,17 +1,11 @@
-2022-??-??
+2022-01-05
 ----------
-version 0.0.10: add more DP problems, including:
-
-- Coin_Change
-- Word_Break
-
-
-2022-01-04
-----------
-ver 0.0.9: initial commit with a few example DP problems, including:
+version 0.0.11: initial commit with a few example DP problems, including:
 
 - Fibonacci_numbers
 - House_Robber
 - Min_Cost_Climbing_Stairs
 - Maximum_Subarray
 - Best_Time_to_Buy_and_Sell_Stock
+- Coin_Change
+- Word_Break
