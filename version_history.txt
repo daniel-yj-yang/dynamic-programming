@@ -3,6 +3,7 @@
 version 0.0.10: add more DP problems, including:
 
 - Coin_Change
+- Word_Break
 
 
 2022-01-04

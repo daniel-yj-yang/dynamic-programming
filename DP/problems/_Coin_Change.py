@@ -16,7 +16,7 @@ class Coin_Change():
     def explanation(self):
         print(f"\nThe question provides a coins array for the different denominations of the coins and an integer amount, and asks you to return the minimal number of coins needed to make up that amount, or -1 if not possible to make up.")
         print(f"\nThe recurrence relation:\n")
-        print(f"F(amount_left) = min([ F(amount_left - coin) + 1 for coin in coins if (amount_left - coin) >= 0 ]), where F(x) is the minimal number of coins needed to make up the amount of x, and F(0) = 0, and \"+ 1\" means using 1 more coin.\n")
+        print(f"F(amount_left) = min([ F(amount_left - coin) + 1 for coin in coins if (amount_left - coin) >= 0 ]), which means using 1 of the coins (the choice) toward making up the amount, where F(x) is the minimal number of coins needed to make up the amount of x, and F(0) = 0, and \"+ 1\" means using 1 more coin.\n")
         print(inspect.getsource(self.top_down) + '\n')
         print(inspect.getsource(self.bottom_up))
 

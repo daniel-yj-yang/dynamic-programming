@@ -51,3 +51,10 @@ c.explanation()  # this will show the code and some explanations
 print(c.top_down(coins=[1, 5, 10, 25], amount=150))
 print(c.bottom_up(coins=[1, 5, 10, 25], amount=150))
 
+print('\n---------------------------------------------------------------------------------------------------')
+
+from DP import Word_Break as wbreak
+wb = wbreak()
+wb.explanation()  # this will show the code and some explanations
+print(wb.top_down(s="codingisfunpythonisgreat", wordDict=["coding", "is", "fun", "python", "great"]))
+print(wb.bottom_up(s="codingisfunpythonisgreat", wordDict=["coding", "is", "fun", "python", "great"]))

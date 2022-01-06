@@ -32,6 +32,7 @@ In this library, I try to provide implementations of two major DP approaches -- 
 - Maximum_Subarray
 - Best_Time_to_Buy_and_Sell_Stock
 - Coin_Change
+- Word_Break
 
 
 Installation
@@ -92,3 +93,11 @@ Sample Usage
 6
 >>> c.bottom_up(coins=[1, 5, 10, 25], amount=150)
 6
+
+>>> from DP import Word_Break as wbreak
+>>> wb = wbreak()
+>>> wb.explanation() # this will show the code and some explanations 
+>>> wb.top_down(s = "codingisfunpythonisgreat", wordDict = ["coding", "is", "fun", "python", "great"])
+True
+>>> wb.bottom_up(s = "codingisfunpythonisgreat", wordDict = ["coding", "is", "fun", "python", "great"])
+True
