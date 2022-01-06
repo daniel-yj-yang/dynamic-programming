@@ -33,6 +33,7 @@ In this library, I provide implementations of two major DP approaches -- (1) top
 - Best_Time_to_Buy_and_Sell_Stock
 - Coin_Change
 - Word_Break
+- Decode_Ways
 
 
 Installation
