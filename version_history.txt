@@ -1,8 +1,7 @@
-- Decode_Ways
 
 2022-01-05
 ----------
-version 0.0.1: initial commit with a few example DP problems, including:
+version 0.0.2: initial commit with a few example DP problems, including:
 
 - Fibonacci_numbers
 - House_Robber
@@ -11,3 +10,4 @@ version 0.0.1: initial commit with a few example DP problems, including:
 - Best_Time_to_Buy_and_Sell_Stock
 - Coin_Change
 - Word_Break
+- Decode_Ways
