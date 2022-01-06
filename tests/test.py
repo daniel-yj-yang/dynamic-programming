@@ -58,3 +58,11 @@ w = wbreak()
 w.explanation()  # this will show the code and some explanations
 print(w.top_down(s="codingisfunpythonisgreat", wordDict=["coding", "is", "fun", "python", "great"]))
 print(w.bottom_up(s="codingisfunpythonisgreat", wordDict=["coding", "is", "fun", "python", "great"]))
+
+print('\n---------------------------------------------------------------------------------------------------')
+
+from DP import Decode_Ways as decode
+d = decode()
+d.explanation()  # this will show the code and some explanations
+print(d.top_down(s="12812823"))
+print(d.bottom_up(s="12812823"))

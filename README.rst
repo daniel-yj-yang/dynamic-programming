@@ -101,3 +101,11 @@ Sample Usage
 True
 >>> w.bottom_up(s = "codingisfunpythonisgreat", wordDict = ["coding", "is", "fun", "python", "great"])
 True
+
+>>> from DP import Decode_Ways as decode
+>>> d = decode()
+>>> d.explanation() # this will show the code and some explanations 
+>>> d.top_down(s = "12812823")
+8
+>>> d.bottom_up(s = "12812823")
+8

@@ -11,6 +11,7 @@ from ._Maximum_Subarray import Maximum_Subarray
 from ._Best_Time_to_Buy_and_Sell_Stock import Best_Time_to_Buy_and_Sell_Stock
 from ._Coin_Change import Coin_Change
 from ._Word_Break import Word_Break
+from ._Decode_Ways import Decode_Ways
 
 # this is for "from <package_name>.game import *"
-__all__ = ["Fibonacci_Numbers", "House_Robber", "Min_Cost_Climbing_Stairs", "Maximum_Subarray", "Best_Time_to_Buy_and_Sell_Stock", "Coin_Change", "Word_Break"]
+__all__ = ["Fibonacci_Numbers", "House_Robber", "Min_Cost_Climbing_Stairs", "Maximum_Subarray", "Best_Time_to_Buy_and_Sell_Stock", "Coin_Change", "Word_Break", "Decode_Ways"]
