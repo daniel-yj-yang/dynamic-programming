@@ -1,6 +1,6 @@
 2022-01-05
 ----------
-version 0.0.11: initial commit with a few example DP problems, including:
+version 0.0.1: initial commit with a few example DP problems, including:
 
 - Fibonacci_numbers
 - House_Robber

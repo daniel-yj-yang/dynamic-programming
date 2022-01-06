@@ -40,7 +40,7 @@ Installation
 
 .. code-block::
 
-   pip install DynamicProgramming
+   pip install dynamic-programming
 
 
 Sample Usage

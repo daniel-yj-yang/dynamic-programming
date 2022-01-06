@@ -15,7 +15,7 @@ with open("requirements.txt") as fh:
     required = fh.read().splitlines()
 
 setuptools.setup(
-    name="DynamicProgramming",
+    name="dynamic-programming",
     version=DP.__version__,
     license=DP.__license__,
     author="Daniel Yang",
@@ -23,7 +23,7 @@ setuptools.setup(
     description="Library for Studying Dynamic Programming",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="https://github.com/daniel-yj-yang/DynamicProgramming",
+    url="https://github.com/daniel-yj-yang/dynamic-programming",
     packages=setuptools.find_packages(),
     # https://pypi.org/classifiers/
     classifiers=[
