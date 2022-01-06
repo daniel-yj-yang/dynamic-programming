@@ -94,8 +94,8 @@ Sample Usage
 >>> c.bottom_up(coins=[1, 5, 10, 25], amount=150)
 6
 
->>> from DP import Word_Break as wbreak
->>> w = wbreak()
+>>> from DP import Word_Break as wordbreak
+>>> w = wordbreak()
 >>> w.explanation() # this will show the code and some explanations 
 >>> w.top_down(s = "codingisfunpythonisgreat", wordDict = ["coding", "is", "fun", "python", "great"])
 True
